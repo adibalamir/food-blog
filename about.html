@@ -68,29 +68,28 @@
 </head>
 
 <body>
-    <!-- Header section start -->
+    <!-- Header start -->
     <header>
+
         <!-- Top-bar section start -->
         <section class="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col">
                         <ul class="top-bar__social-list">
-                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
-                            <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
                         </ul>
                     </div>
-                    <div class="col-md-6">
+
+                    <!-- <div class="col-md-6">
                         <div class="top-bar__links">
                             <a href="#">Register</a>
                             <span>/</span>
                             <a href="#">Login</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
@@ -106,23 +105,17 @@
                         </a>
                     </div>
 
-                    <div class="col-md-9 col-lg-8">
+                    <div class="col-md-10 col-lg-8">
                         <ul class="top-nav__menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="recipes.html">Recipes</a></li>
-                            <li><a href="recipe-detail.html">Recipe Detail</a></li>
-                            <li class="active"><a href="#">About</a></li>
+                            <li class="active"><a href="#">Home</a></li>
+                            <!-- <li><a href="recipes.html">Recipes</a></li> -->
+                            <li><a href="about.html">About</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
 
                     <div class="col-2 col-md-1 col-lg-2">
-                        <div class="top-nav__search">
-                            <button>
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
+                    </div> <!-- re-add search button when search feature exists (see html partials) -->
 
                     <div class="col-3">
                         <div class="top-nav__toggle" id="showMenu">
@@ -135,10 +128,10 @@
                     </div>
 
                     <ul class="top-nav__menu-toggle" id="navLinks">
-                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="#">Home</a></li>
                         <li><a href="recipes.html">Recipes</a></li>
                         <li><a href="recipe-detail.html">Recipe Detail</a></li>
-                        <li class="active"><a href="about.html">About</a></li>
+                        <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
@@ -146,7 +139,7 @@
         </nav>
         <!-- Navigation section end -->
     </header>
-    <!-- Header section end -->
+    <!-- Header end -->
 
     <main>
         <!-- Hero section start -->
@@ -224,7 +217,6 @@
         <!-- Facts section end -->
     </main>
 
-    <!-- Footer start -->
     <footer>
         <section class="app-footer">
             <div class="container">
@@ -245,10 +237,9 @@
                     <div class="col-12 col-lg-6">
                         <div class="app-footer__right">
                             <ul class="app-footer__menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="recipes.html">Recipes</a></li>
-                                <li><a href="recipe-detail.html">Recipe Detail</a></li>
-                                <li class="active"><a href="#">About</a></li>
+                                <li class="active"><a href="#">Home</a></li>
+                                <!-- <li><a href="recipes.html">Recipes</a></li> -->
+                                <li><a href="about.html">About</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                             <p>Copyright © 2020 All rights reserved | This template is made with <i
@@ -260,15 +251,12 @@
             </div>
         </section>
     </footer>
-    <!-- Footer end -->
 
-    <!-- Scroll-to-top button start -->
     <div class="scroll-to-top">
         <button id="scrollButton">
             <i class="fas fa-chevron-up"></i>
         </button>
     </div>
-    <!-- Scroll-to-top button end -->
 
     <!-- Javascript -->
     <script src="js/main.js"></script>
