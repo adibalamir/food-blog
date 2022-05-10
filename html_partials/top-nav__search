@@ -1,0 +1,5 @@
+<div class="top-nav__search">
+    <button>
+        <i class="fas fa-search"></i>
+    </button>
+</div>
