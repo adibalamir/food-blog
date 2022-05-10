@@ -3,7 +3,6 @@
 ## Description
 A website to share my recipes.
 
-![Food Blog banner](images/food-blog-banner.png)
 *Food Blog*
 
 ## Build with 
