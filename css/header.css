@@ -66,14 +66,14 @@ ul.top-bar__social-list a {
 /******** LOGO ********/
 
 .top-nav__logo {
-    height: 36px;
+    height: 7rem;
 }
 
 /* Tablet */
 
 @media only screen and (min-width: 768px) {
     .top-nav__logo {
-        height: 48px;
+        height: 6rem;
     }
 }
 
@@ -81,7 +81,7 @@ ul.top-bar__social-list a {
 
 @media only screen and (min-width: 992px) {
     .top-nav__logo {
-        height: 64px;
+        height: 6.5rem;
     }
 }
 
